@@ -112,7 +112,7 @@ const handleFormSubmit = (e) => {
   
   setTimeout(() => {
     // Generate bot message HTML and add in the chat container
-    const botMsgHTML = `<img class="avatar" src="gemini.svg" /> <p class="message-text">Just a sec...</p>`;
+    const botMsgHTML = `<img class="avatar" src="IMG-20260101-WA0003.jpg" /> <p class="message-text">Just a sec...</p>`;
     const botMsgDiv = createMessageElement(botMsgHTML, "bot-message", "loading");
     chatsContainer.appendChild(botMsgDiv);
     scrollToBottom();
